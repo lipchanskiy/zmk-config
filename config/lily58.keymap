@@ -31,6 +31,11 @@
             bindings = <&kp LA(LEFT_SHIFT)>;
             key-positions = <50 57>;
         };
+
+        Esc {
+            bindings = <&kp ESC>;
+            key-positions = <31 32>;
+        };
     };
 
     keymap {
